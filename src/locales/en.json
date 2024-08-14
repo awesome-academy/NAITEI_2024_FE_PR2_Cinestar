@@ -1,0 +1,29 @@
+{
+    "header": {
+        "buyTicket": "Buy Tickets",
+        "buyPopCorn": "Buy popcorn",
+        "search": "Find movies, theaters",
+        "login": "Sign in",
+        "showtime": "Showtimes",
+        "location": "Select Theater"
+    },
+
+    "nav": {
+        "discount": "Discounts",
+        "rent": "Event Rentals",
+        "entertainment": "Entertainment Options",
+        "aboutUs": "About Us",
+        "contact": "Contact"
+    },
+
+    "location": {
+        "locat1": "Cinestar Quoc Thanh",
+        "locat2": "Cinestar Hai Ba Trung (TP.CMC)",
+        "locat3": "Cinestar Student (Binh Duong)",
+        "locat4": "Cinestar Hue",
+        "locat5": "Cinestar Da Lat",
+        "locat6": "Cinestar Lam Dong",
+        "locat7": "Cinestar My Tho",
+        "locat8": "Cinestar Kien Giang"
+    }
+}

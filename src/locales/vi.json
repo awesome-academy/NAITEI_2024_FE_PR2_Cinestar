@@ -1,0 +1,29 @@
+{
+    "header": {
+        "buyTicket": "Đặt vé ngay",
+        "buyPopCorn": "Đặt bắp nước",
+        "search": "Tìm phim, rạp",
+        "login": "Đăng nhập",
+        "showtime": "Lịch chiếu",
+        "location": "Chọn rạp"
+    },
+
+    "nav": {
+        "discount": "Khuyến mãi",
+        "rent": "Thuê sự kiện",
+        "entertainment": "Tất cả các giải trí",
+        "aboutUs": "Giới thiệu",
+        "contact": "Liên hệ"
+    },
+
+    "location": {
+        "locat1": "Cinestar Quốc Thanh",
+        "locat2": "Cinestar Hai Bà Trưng (TP.HCM)",
+        "locat3": "Cinestar Sinh Viên (Bình Dương)",
+        "locat4": "Cinestar Huế",
+        "locat5": "Cinestar Đà Lạt",
+        "locat6": "Cinestar Lâm Đồng",
+        "locat7": "Cinestar Mỹ Tho",
+        "locat8": "Cinestar Kiên Giang"
+    }
+}
