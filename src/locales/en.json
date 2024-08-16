@@ -25,5 +25,86 @@
         "locat6": "Cinestar Lam Dong",
         "locat7": "Cinestar My Tho",
         "locat8": "Cinestar Kien Giang"
+    },
+
+    "footer": {
+        "lang": "Language",
+        "account": {
+            "title": "Account",
+            "acc1": "Sign In",
+            "acc2": "Sign Up",
+            "acc3": "Membership"
+        },
+        "rent": {
+            "title": "Event Rentals",
+            "rent1": "Rent a cinema",
+            "rent2": "Other rental types"
+        },
+        "show": {
+            "title": "See Movies",
+            "show1": "Movie is showing",
+            "show2": "Movie coming soon",
+            "show3": "Special Sceening"
+        },
+        "cines": {
+            "title": "Cinestar",
+            "cine1": "About Us",
+            "cine2": "Contact",
+            "cine3": "Jobs"
+        },
+        "service": {
+            "title": "Other Services",
+            "dv1": "Restaurant",
+            "dv2": "Kidzone",
+            "dv3": "Bowling",
+            "dv4": "Billiards",
+            "dv5": "Gym",
+            "dv6": "Opera House",
+            "dv7": "Coffee"
+        },
+        "loca": {
+            "title": "Theater Locations",
+            "locaAll": "All Theaters",
+            "loca1": "Cinestar Quoc Thanh",
+            "loca2": "Cinestar Hai Ba Trung (TP.CMC)",
+            "loca3": "Cinestar Student (Binh Duong)",
+            "loca4": "Cinestar My Tho",
+            "loca5": "Cinestar Kien Giang",
+            "loca6": "Cinestar Lam Dong",
+            "loca7": "Cinestar Da Lat",
+            "loca8": "Cinestar Hue"
+        },
+        "policy": {
+            "link1": "Privacy Policy",
+            "link2": "Movie News",
+            "link3": "Q&A"
+        },
+        "bct": {
+            "li1": "CÔNG TY CỔ PHẦN GIẢI TRÍ PHÁT HÀNH PHIM – RẠP CHIẾU PHIM NGÔI SAO",
+            "li2": "ADDRESS: 135 HAI BA TRUNG, BEN NGHE WARD, DISTRICT 1, HO CHI MINH CITY",
+            "li3": "BUSINESS REGISTRATION CERTIFICATE NO: 0312742744, FIRST REGISTRATION DATE 18/04/2014, SECOND AMENDMENT REGISTRATION DATE 15/09/2014, ISSUED BY HO CHI MINH CITY DEPARTMENT OF PLANNING AND INVESTMENT"
+        }
+    },
+
+    "button": {
+        "book": "Buy Tickets",
+        "see": "See more",
+        "all": "all discount and promotions",
+        "learn": "Learn more",
+        "trailer": "Watch Trailer"
+    },
+
+    "label": {
+        "onGoing": "Now showing",
+        "upComing": "coming soon",
+        "discount": "Discounts",
+        "program": "Membership program",
+        "cFriend": "C'Friend Member",
+        "cFriendDes": "C'Friend Card Offers Many Benefit for New Members",
+        "cVip": "C'Vip Member",
+        "cVipDes": "CineStar VIP Card Offers Exclusive Benefits",
+        "option": "Entertainment Options",
+        "optionDes": "In addition to the high-quality cinema system, Cinestar also provides you with many other great types of entertainment.",
+        "date": "Premiere"
     }
 }
