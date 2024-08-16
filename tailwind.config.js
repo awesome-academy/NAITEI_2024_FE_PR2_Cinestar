@@ -67,7 +67,6 @@ export const plugins = [
         display: 'flex',
         alignItems: 'center',
         backgroundColor: 'transparent',
-        border: 'none',
         borderRadius: '.4rem',
         cursor: 'pointer',
         fontFamily: 'var(--font-title)',
@@ -96,6 +95,14 @@ export const plugins = [
       },
       '.hover-color-white': {
         color: '#F8FAFC',
+      },
+      '.hover-shine': {
+        'color': '#f3ea28',
+        'animation': 'shine 1s infinite',
+        '-webkit-mask-image': 'linear-gradient(-75deg, rgba(243, 234, 40, .6) 30%, #f3ea28 50%, rgba(243, 234, 40, .6) 70%)',
+        '-webkit-mask-size': '200%',
+        'mask-image': 'linear-gradient(-75deg, rgba(243, 234, 40, .6) 30%, #f3ea28 50%, rgba(243, 234, 40, .6) 70%)',
+        'mask-size': '200%',
       },
     }, ['responsive', 'hover']);
   },

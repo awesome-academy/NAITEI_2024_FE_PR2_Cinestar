@@ -25,5 +25,64 @@
         "locat6": "Cinestar Lâm Đồng",
         "locat7": "Cinestar Mỹ Tho",
         "locat8": "Cinestar Kiên Giang"
+    },
+
+    "footer": {
+        "lang": "Ngôn ngữ",
+        "account": {
+            "title": "tài khoản",
+            "acc1": "Đăng nhập",
+            "acc2": "Đăng ký",
+            "acc3": "Membership"
+        },
+        "rent": {
+            "title": "thuê sự kiện",
+            "rent1": "Thuê rạp",
+            "rent2": "Các loại hình cho thuê khác"
+        },
+        "show": {
+            "title": "xem phim",
+            "show1": "Phim đang chiếu",
+            "show2": "Phim sắp chiếu",
+            "show3": "Suất chiếu đặc biệt"
+        },
+        "cines": {
+            "title": "cinestar",
+            "cine1": "Giới thiệu",
+            "cine2": "Liên hệ",
+            "cine3": "Tuyển dụng"
+        },
+        "service": {
+            "title": "dịch vụ khác",
+            "dv1": "Nhà hàng",
+            "dv2": "Kidzone",
+            "dv3": "Bowling",
+            "dv4": "Billiards",
+            "dv5": "Gym",
+            "dv6": "Nhà hát Opera",
+            "dv7": "Coffee"
+        },
+        "loca": {
+            "title": "hệ thống rạp",
+            "locaAll": "Tất cả hệ thống rạp",
+            "loca1": "Cinestar Quốc Thanh",
+            "loca2": "Cinestar Hai Bà Trưng (TP.HCM)",
+            "loca3": "Cinestar Sinh Viên (Bình Dương)",
+            "loca4": "Cinestar Mỹ Tho",
+            "loca5": "Cinestar Kiên Giang",
+            "loca6": "Cinestar Lâm Đồng",
+            "loca7": "Cinestar Đà Lạt",
+            "loca8": "Cinestar Huế"
+        },
+        "policy": {
+            "link1": "Chính sách bảo mật",
+            "link2": "Tin điện ảnh",
+            "link3": "Hỏi và đáp"
+        },
+        "bct": {
+            "li1": "CÔNG TY CỔ PHẦN GIẢI TRÍ PHÁT HÀNH PHIM – RẠP CHIẾU PHIM NGÔI SAO",
+            "li2": "ĐỊA CHỈ: 135 HAI BÀ TRƯNG, PHƯỜNG BẾN NGHÉ, QUẬN 1, TP.HCM",
+            "li3": "GIẤY CNĐKDN SỐ: 0312742744, ĐĂNG KÝ LẦN ĐẦU NGÀY 18/04/2014, ĐĂNG KÝ THAY ĐỔI LẦN THỨ 2 NGÀY 15/09/2014, CẤP BỞI SỞ KH&ĐT TP.HCM"
+        }
     }
 }
