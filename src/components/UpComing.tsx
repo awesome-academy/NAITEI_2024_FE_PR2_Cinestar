@@ -8,6 +8,7 @@ import { useTranslation } from "react-i18next";
 import { fetchMovies } from '../api/movie.api';
 
 const UpComing: React.FC = () => {
+    const { t } = useTranslation();
     const [movies, setMovies] = useState<MovieProps['movie'][]>([]);
 
     useEffect(() => {
@@ -24,8 +25,6 @@ const UpComing: React.FC = () => {
 
         getMovies();
     }, []);
-
-    const { t } = useTranslation();
 
     const settings = {
         dots: true,
