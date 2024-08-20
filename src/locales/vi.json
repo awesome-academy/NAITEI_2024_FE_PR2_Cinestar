@@ -84,5 +84,27 @@
             "li2": "ĐỊA CHỈ: 135 HAI BÀ TRƯNG, PHƯỜNG BẾN NGHÉ, QUẬN 1, TP.HCM",
             "li3": "GIẤY CNĐKDN SỐ: 0312742744, ĐĂNG KÝ LẦN ĐẦU NGÀY 18/04/2014, ĐĂNG KÝ THAY ĐỔI LẦN THỨ 2 NGÀY 15/09/2014, CẤP BỞI SỞ KH&ĐT TP.HCM"
         }
+    },
+
+    "button": {
+        "book": "Đặt vé",
+        "see": "Xem thêm",
+        "all": "Tất cả ưu đãi",
+        "learn": "Tìm hiểu thêm",
+        "trailer": "Xem Trailer"
+    },
+
+    "label": {
+        "onGoing": "Phim đang chiếu",
+        "upComing": "Phim sắp chiếu",
+        "discount": "Khuyến mãi",
+        "program": "Chương trình thành viên",
+        "cFriend": "Thành viên C'Friend",
+        "cFriendDes": "Thẻ C'Friend nhiều ưu đãi cho thành viên mới",
+        "cVip": "Thành viên C'Vip",
+        "cVipDes": "Thẻ VIP CineStar mang đến sự ưu đãi độc quyền",
+        "option": "Tất cả các giải trí",
+        "optionDes": "Ngoài hệ thống rạp chiếu phim chất lượng cao, Cinestar còn cung cấp cho bạn nhiều loại hình giải trí tuyệt vời khác.",
+        "date": "Khởi chiếu"
     }
 }

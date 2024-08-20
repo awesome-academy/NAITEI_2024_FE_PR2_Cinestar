@@ -13,8 +13,8 @@ const Header = () => {
     };
 
     return (
-        <header>
-            <div className="bg-black container mx-auto px-4 h-24">
+        <header className="fixed h-fit bg-[#0f172a] inline-block left-0 top-0 transition-all duration-400 w-full z-[55]">
+            <div className="container mx-auto px-4 h-24">
                 <div className="flex items-center h-full gap-12">
                     <a 
                     className="text-inherit no-underline flex w-32"
@@ -92,7 +92,7 @@ const Header = () => {
             </div>
 
             <div className="h-16">
-                <div className="flex items-center relative cursor-pointer gap-4 h-full justify-between container mx-auto px-4 border-t border-gray-300 bg-black">
+                <div className="flex items-center relative cursor-pointer gap-4 h-full justify-between container mx-auto px-4 border-t border-gray-300">
                     <div className="flex gap-16">
                         <div className="group">
                             <span className="flex gap-2 text-default-color hover:hover-color">
