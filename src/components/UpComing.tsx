@@ -5,19 +5,24 @@ import Slider from "react-slick";
 import { MovieProps } from "../interfaces/Movie.type";
 import '../i18n';
 import { useTranslation } from "react-i18next";
+import { fetchMovies } from '../api/movie.api';
 
 const UpComing: React.FC = () => {
     const [movies, setMovies] = useState<MovieProps['movie'][]>([]);
 
     useEffect(() => {
-        fetch(`${process.env.REACT_APP_API_HOST}/movies`)
-            .then(response => response.json())
-            .then(data => {
+        const getMovies = async () => {
+            try {
+                const data = await fetchMovies();
                 const currentDate = new Date().toISOString().split("T")[0];
                 const filteredMovies = data.filter((movie: MovieProps['movie']) => movie.releaseDate && movie.releaseDate > currentDate);
                 setMovies(filteredMovies);
-            })
-            .catch(error => console.error('Error fetching movies:', error));
+            } catch (error) {
+                console.error('Error setting movies:', error);
+            }
+        };
+
+        getMovies();
     }, []);
 
     const { t } = useTranslation();

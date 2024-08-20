@@ -5,15 +5,22 @@ import Slider from "react-slick";
 import { MovieProps } from "../interfaces/Movie.type";
 import '../i18n';
 import { useTranslation } from "react-i18next";
+import { fetchOnGoingMovies } from '../api/onGoing.api';
 
 const OnGoing: React.FC = () => {
     const [movies, setMovies] = useState<MovieProps['movie'][]>([]);
 
     useEffect(() => {
-        fetch(`${process.env.REACT_APP_API_HOST}/movies?onGoing=true`)
-            .then(response => response.json())
-            .then(data => setMovies(data))
-            .catch(error => console.error('Error fetching movies:', error));
+        const getOnGoingMovies = async () => {
+            try {
+                const data = await fetchOnGoingMovies();
+                setMovies(data);
+            } catch (error) {
+                console.error('Error setting movies:', error);
+            }
+        };
+
+        getOnGoingMovies();
     }, []);
 
     const settings = {
