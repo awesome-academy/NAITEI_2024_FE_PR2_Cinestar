@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import Button from "./Button";
+import Button from "./LinkButton";
 import Image from "./Image";
 import Modal from "./Modal";
 import { MovieProps } from "../interfaces/Movie.type";
 import { useTranslation } from "react-i18next";
 import { iconTags } from '../contracts/IconTag.contract';
-import { formatDate } from "../untils/format.untils";
+import { formatDate } from "../utils/format.utils";
 
 const Movie: React.FC<MovieProps> = ({ movie }) => {
   const { t } = useTranslation();
