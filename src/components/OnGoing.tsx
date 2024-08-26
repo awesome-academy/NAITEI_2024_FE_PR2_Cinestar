@@ -8,6 +8,7 @@ import { useTranslation } from "react-i18next";
 import { fetchOnGoingMovies } from '../api/onGoing.api';
 
 const OnGoing: React.FC = () => {
+    const { t } = useTranslation();
     const [movies, setMovies] = useState<MovieProps['movie'][]>([]);
 
     useEffect(() => {
@@ -30,8 +31,6 @@ const OnGoing: React.FC = () => {
         slidesToShow: 4,
         slidesToScroll: 4,
     };
-
-    const { t } = useTranslation();
 
     return (
         <div className="container mx-auto flex flex-col items-center justify-center mb-32 mt-10">

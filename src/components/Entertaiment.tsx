@@ -5,8 +5,8 @@ import '../i18n';
 import { EntertainmentProps } from '../interfaces/Entertaiment.type';
 
 const Entertainment: React.FC = () => {
-    const [entertainments, setEntertainments] = useState<EntertainmentProps[]>([]);
     const { t } = useTranslation();
+    const [entertainments, setEntertainments] = useState<EntertainmentProps[]>([]);
 
     useEffect(() => {
         fetch('http://localhost:5000/entertainments')
