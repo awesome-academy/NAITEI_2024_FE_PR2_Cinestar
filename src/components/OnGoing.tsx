@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Movie from "./Movie";
-import Button from './Button';
+import Button from './LinkButton';
 import Slider from "react-slick";
 import { MovieProps } from "../interfaces/Movie.type";
 import '../i18n';
@@ -8,7 +8,6 @@ import { useTranslation } from "react-i18next";
 import { fetchOnGoingMovies } from '../api/onGoing.api';
 
 const OnGoing: React.FC = () => {
-    const { t } = useTranslation();
     const [movies, setMovies] = useState<MovieProps['movie'][]>([]);
 
     useEffect(() => {
@@ -31,6 +30,8 @@ const OnGoing: React.FC = () => {
         slidesToShow: 4,
         slidesToScroll: 4,
     };
+
+    const { t } = useTranslation();
 
     return (
         <div className="container mx-auto flex flex-col items-center justify-center mb-32 mt-10">
