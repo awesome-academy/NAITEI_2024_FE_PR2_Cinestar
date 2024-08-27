@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
-import Button from './Button';
+import Button from './LinkButton';
 import Image from './Image';
 import '../i18n';
 

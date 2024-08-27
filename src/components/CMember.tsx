@@ -2,7 +2,7 @@ import React from "react";
 import '../i18n';
 import { useTranslation } from "react-i18next";
 import Image from "./Image";
-import Button from "./Button";
+import Button from "./LinkButton";
 
 const CMember: React.FC = () => {
     const { t } = useTranslation();
