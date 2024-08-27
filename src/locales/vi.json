@@ -91,7 +91,10 @@
         "see": "Xem thêm",
         "all": "Tất cả ưu đãi",
         "learn": "Tìm hiểu thêm",
-        "trailer": "Xem Trailer"
+        "trailer": "Xem Trailer",
+        "showTime": "Xem tất cả lịch chiếu",
+        "buyNow": "Đặt vé ngay",
+        "contact": "Liên hệ ngay"
     },
 
     "label": {
@@ -106,5 +109,48 @@
         "option": "Tất cả các giải trí",
         "optionDes": "Ngoài hệ thống rạp chiếu phim chất lượng cao, Cinestar còn cung cấp cho bạn nhiều loại hình giải trí tuyệt vời khác.",
         "date": "Khởi chiếu"
+    },
+
+    "day": {
+        "today": "Hôm nay",
+        "monday": "Thứ hai",
+        "tuesday": "Thứ ba",
+        "wednesday": "Thứ tư",
+        "thursday": "Thứ năm",
+        "friday": "Thứ sáu",
+        "saturday": "Thứ bảy",
+        "sunday": "Chủ nhật"
+    },
+
+    "rating": {
+        "t13": "Phim dành cho khán giả từ đủ 13 tuổi trở lên (13+)",
+        "t16": "Phim dành cho khán giả từ đủ 16 tuổi trở lên (16+)",
+        "t18": "Phim dành cho khán giả từ đủ 18 tuổi trở lên (18+)",
+        "k": "Phim dành cho khán giả từ dưới 13 tuổi với điều kiện xem cùng cha, mẹ hoặc người giám hộ"
+    },
+
+    "discount": {
+        "condition": "Điều kiện",
+        "note": "Lưu ý"
+    },
+
+    "event": {
+        "heading": "Thuê sự kiện",
+        "desc1": "Lên kế hoạch cho một sự kiện?",
+        "desc2": "Chúng tôi có nhiều lựa chọn để giúp sự kiện của bạn trở nên khó quên.",
+        "event1": {
+            "title": "Fanclub, Cầu hôn, Sinh nhật",
+            "desc": "Cinestar Cinemas kỳ vọng sẽ đứng đằng sau làm sân khấu để tôn vinh câu chuyện của doanh nghiệp bạn."
+        },
+        "event2": {
+            "title": "Ra Mắt Chương Trình, Họp Nội Bộ, Music Video, Ra Mắt Phim",
+            "desc": "Cinestar Cinemas kỳ vọng sẽ đứng đằng sau làm sân khấu để tôn vinh câu chuyện của doanh nghiệp bạn."
+        },
+        "event3": {
+            "title": "Nội Bộ, Film Festival",
+            "desc": "Cinestar Cinemas kỳ vọng sẽ đứng đằng sau làm sân khấu để tôn vinh câu chuyện của doanh nghiệp bạn."
+        },
+        "title": "CÁC DỊCH VỤ CHO THUÊ KHÁC",
+        "subTitle": "Bạn đang tìm kiếm một địa điểm để … "
     }
 }

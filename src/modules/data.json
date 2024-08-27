@@ -256,5 +256,145 @@
         "releaseDate": "2024-09-13",
         "onGoing": false
       }
+    ],
+    "theater": [
+      {
+        "name": "Quốc Thanh",
+        "address": "271 Nguyễn Trãi, Phường Nguyễn Cư Trinh, Quận 1, Thành Phố Hồ Chí Minh",
+        "type": "theater",
+        "image": "/images/theater/Quoc_Thanh.jpg",
+        "room": "6",
+        "chair": "930",
+        "status": "open"
+      },
+      {
+        "name": "Đà Lạt",
+        "address": "Quảng trường Lâm Viên, P10, TP.Đà Lạt, Lâm Đồng",
+        "type": "theater",
+        "image": "/images/theater/Da_Lat.jpg",
+        "room": "6",
+        "chair": "1592",
+        "status": "open"
+      },
+      {
+        "name": "Hai Bà Trưng (TP.HCM)",
+        "address": "135 Hai Bà Trưng, Phường Bến Nghé ,Quận 1, Thành Phố Hồ Chí Minh",
+        "type": "theater",
+        "image": "/images/theater/Hai_Ba_Trung.jpg",
+        "room": "5",
+        "chair": "725",
+        "status": "open"
+      },
+      {
+        "name": "Huế",
+        "address": "25 Hai Bà Trưng, Vĩnh Ninh, Thành phố Huế, Thừa Thiên Huế",
+        "type": "theater",
+        "image": "/images/theater/Hue.jpg",
+        "room": "8",
+        "chair": "1200",
+        "status": "open"
+      },
+      {
+        "name": "Sinh Viên (Bình Dương)",
+        "address": "Nhà văn hóa sinh viên, Đại học Quốc gia HCM, P.Đông Hòa, Dĩ An, Bình Dương",
+        "type": "theater",
+        "image": "/images/theater/Sinh-Vien.jpg",
+        "room": "4",
+        "chair": "881",
+        "status": "open"
+      },
+      {
+        "name": "Mỹ Tho",
+        "address": "52 Đinh Bộ Lĩnh, Phường 3, Thành phố Mỹ Tho, Tiền Giang",
+        "type": "theater",
+        "image": "/images/theater/My_Tho.jpg",
+        "room": "5",
+        "chair": "912",
+        "status": "open"
+      },
+      {
+        "name": "Kiên Giang",
+        "address": "Lô A2 - Khu 2 Trung tâm Thương mại Rạch Sỏi, Đường Nguyễn Chí Thanh, Phường Rạch Sỏi, Thành phố Rạch Giá, Tỉnh Kiên Giang",
+        "type": "theater",
+        "image": "/images/theater/Kien_Giang.jpg",
+        "room": "4",
+        "chair": "750",
+        "status": "open"
+      },
+      {
+        "name": "Lâm Đồng",
+        "address": "713 QL20, Liên Nghĩa, Đức Trọng, Lâm Đồng",
+        "type": "theater",
+        "image": "/images/theater/Lam_Dong.jpg",
+        "room": "4",
+        "chair": "853",
+        "status": "open"
+      },
+      {
+        "name": "Gym/Kidzone",
+        "image": "/images/theater/Gym_Kidzone.jpg"
+      },
+      {
+        "name": "Coming Soon",
+        "type": "theater",
+        "image": "/images/theater/Hiep_Phu.jpg",
+        "status": "comingsoon"
+      }
+    ],
+    "discounts": [
+      {
+        "title": "C’STUDENT - 45K CHO HỌC SINH SINH VIÊN",
+        "subTitle": "Đồng giá 45K/2D cho HSSV/GV/U22 cả tuần tại mọi cụm rạp Cinestar",
+        "condition": ["HSSV xuất trình thẻ HSSV hoặc CCCD từ dưới 22 tuổi.", "Giảng viên/ giáo viên xuất trình thẻ giảng viên."],
+        "notes": ["Mỗi thẻ mua được một vé.", "Không áp dụng cho các ngày Lễ, Tết, hoặc suất chiếu có phụ thu từ nhà phát hành phim."],
+        "image": "/images/discounts/km-m-2.webp"
+      },
+      {
+        "title": "C'TEN - HAPPY HOUR - 45K/ 2D MỐC 10H",
+        "subTitle": "Áp dụng giá 45K/ 2D và 55K/ 3D cho khách hàng xem phim trước 10h sáng và sau 10h tối.",
+        "condition": ["Khách hàng là thành C’FRIEND hoặc C’VIP của Cinestar.", "Áp dụng tại App/Web Cinestar hoặc mua trực tiếp tại rạp."],
+        "notes": ["Không áp dụng cho các ngày lễ/tết."],
+        "image": "/images/discounts/km-m-3.webp"
+      },
+      {
+        "title": "C'MONDAY - HAPPY DAY - ĐỒNG GIÁ 45K/ 2D",
+        "subTitle": "Đồng giá 45K/2D, 55K/3D vào thứ 2 hàng tuần",
+        "condition": ["Áp dụng cho các suất chiếu vào ngày thứ 2 hàng tuần.", "Mua vé trực tiếp tại App/Web Cinestar hoặc mua trực tiếp tại rạp."],
+        "notes": ["Không áp dụng cho các ngày lễ/tết."],
+        "image": "/images/discounts/km-m-4.webp"
+      },
+      {
+        "title": "C'MEMBER - HAPPY MEMBER’S DAY - GIÁ CHỈ 45K/ 2D",
+        "subTitle": "Áp dụng giá 45K/ 2D và 55K/ 3D cho khách hàng là thành viên Cinestar vào ngày thứ 4 hàng tuần.",
+        "condition": ["Khách hàng là thành C’FRIEND hoặc C’VIP của Cinestar.", "Áp dụng tại App/Web Cinestar hoặc mua trực tiếp tại rạp."],
+        "notes": ["Giảm thêm 10% giá trị hóa đơn bắp nước cho chủ thẻ C’FRIEND và 15% cho chủ thẻ C’VIP.", "Không áp dụng cho các ngày lễ/tết."],
+        "image": "/images/discounts/km-m-1.webp"
+      }
+    ],
+    "events": [
+      {
+        "title": "Rạp chiếu phim",
+        "image": "/images/rent/rap-chieu-phim.png"
+      },
+      {
+        "title": "Nhà hát Opera",
+        "image": "/images/rent/nha-hat.png"
+      },
+      {
+        "title": "Kidzone",
+        "image": "/images/rent/kid-zone.png"
+      },
+      {
+        "title": "Bowling",
+        "image": "/images/rent/bowling.png"
+      },
+      {
+        "title": "Nhà hàng",
+        "image": "/images/rent/nhahang.png"
+      },
+      {
+        "title": "Billiards",
+        "image": "/images/rent/bida.png"
+      }
     ]
 }

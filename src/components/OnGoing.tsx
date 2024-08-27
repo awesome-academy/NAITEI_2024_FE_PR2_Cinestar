@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Movie from "./Movie";
-import Button from './Button';
+import Button from './LinkButton';
 import Slider from "react-slick";
 import { MovieProps } from "../interfaces/Movie.type";
 import '../i18n';

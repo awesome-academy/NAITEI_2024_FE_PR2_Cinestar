@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Movie from "./Movie";
-import Button from './Button';
+import Button from './LinkButton';
 import Slider from "react-slick";
 import { MovieProps } from "../interfaces/Movie.type";
-import '../i18n';
 import { useTranslation } from "react-i18next";
 import { fetchMovies } from '../api/movie.api';
 

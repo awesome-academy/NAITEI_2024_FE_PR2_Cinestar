@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from './Button';
+import Button from './LinkButton';
 import Image from './Image';
 import { useTranslation } from "react-i18next";
 import '../i18n';
