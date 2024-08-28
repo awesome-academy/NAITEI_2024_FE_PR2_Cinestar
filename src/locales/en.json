@@ -92,7 +92,8 @@
         "all": "all discount and promotions",
         "learn": "Learn more",
         "trailer": "Watch Trailer",
-        "showTime": "See all Showtimes"
+        "showTime": "See all Showtimes",
+        "buyNow": "Buy Tickets Now"
     },
 
     "label": {
@@ -125,5 +126,32 @@
         "t16": "Movies are allowed to be disseminated to viewers aged 16 years and over (16+)",
         "t18": "Movies are allowed to be disseminated to viewers aged 18 years and over (18+)",
         "k": "Movies are allowed to be disseminated to viewers under the age of 13 provided they are watched with a parent or guardian"
+    },
+
+    "discount": {
+        "condition": "Condition",
+        "note": "Notes"
+    },
+
+    "filter": {
+        "date": "Date",
+        "movie": "Movie",
+        "theater": "Theater",
+        "movieFill": "Select Movie",
+        "theaterFill": "Select Theater"
+    },
+
+    "aboutUs": {
+        "heading1": "CINESTAR CINEMAS",
+        "des1": "Cinestar is one of the most popular cinema systems in Vietnam, providing many attractive entertainment models including modern Cinema Complexes, Theaters, Kidzone children's play areas, Bowling, Billiards , Games, Gym, Restaurant, and C'Beer Beer Street. With the goal of becoming an entertainment destination for every Vietnamese family, Cinestar is known as a theater complex that supports Vietnamese films, contributing to the development of Vietnamese cinema. Not only does it show international blockbusters, Cinestar also accompanies Vietnamese filmmakers, bringing unique Vietnamese cinema works closer to the audience.",
+        "heading2": "MISSION",
+        "mission1": "Contribute to the growth of Vietnamese cinema, culture and entertainment market share",
+        "mission2": "Develop excellent services with optimal prices, suitable for Vietnamese people's income",
+        "mission3": "Bringing Vietnamese cinema art and culture to the international stage",
+        "heading3": "COMPANY HEADQUARTER",
+        "des2": "",
+        "heading4": "CINEMAS SYSTEM",
+        "room": "rooms with",
+        "chair": "chairs"
     }
 }

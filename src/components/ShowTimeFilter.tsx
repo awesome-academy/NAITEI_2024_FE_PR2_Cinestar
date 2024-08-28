@@ -4,8 +4,10 @@ import Dropdown from "./Dropdown";
 import { GetDaysOfWeek } from '../utils/Date.utils';
 import { getOnGoingMovieTitles } from "../utils/Movie.utils";
 import { fetchOpenTheaters } from "../api/theater.api";
+import { useTranslation } from "react-i18next";
 
 const ShowTimeFilter: React.FC = () => {
+    const { t } = useTranslation();
     const [movieTitles, setMovieTitles] = useState<string[]>([]);
     const [theaterNames, setTheaterNames] = useState<string[]>([]);
 
@@ -40,7 +42,7 @@ const ShowTimeFilter: React.FC = () => {
                     <div className="border border-gray-400 rounded-lg flex flex-col basis-1/4 p-4">
                         <div className="items-center text-[2.4rem] text-hover-color flex justify-between mb-4 w-full">
                             <span className="leading-none text-nowrap text-2xl">
-                                1. Ngày
+                                1. {t('filter.date')}
                             </span>
                             <span className="text-hover-color">
                                 <Image width="30" height="30" src={`${process.env.PUBLIC_URL}/images/icons/icon-calendar.svg`} className="max-h-10 fill-current"/>
@@ -57,7 +59,7 @@ const ShowTimeFilter: React.FC = () => {
                     <div className="border border-gray-400 rounded-lg flex flex-col basis-1/2 p-4">
                         <div className="items-center text-[2.4rem] text-hover-color flex justify-between mb-4 w-full">
                             <span className="leading-none text-nowrap text-2xl">
-                                2. Phim
+                                2. {t('filter.movie')}
                             </span>
                             <span className="text-hover-color">
                                 <Image width="30" height="30" src={`${process.env.PUBLIC_URL}/images/icons/icon-movie.svg`} className="max-h-10 fill-current"/>
@@ -67,14 +69,14 @@ const ShowTimeFilter: React.FC = () => {
                             <Dropdown
                                 options={movieTitles}
                                 onChange={(value) => value}
-                                defaultValue="Chọn phim"
+                                defaultValue={t('filter.movieFill')}
                                 renderOption={(title) => title}/>
                         </div>
                     </div>
                     <div className="border border-gray-400 rounded-lg flex flex-col basis-1/4 p-4">
                         <div className="items-center text-[2.4rem] text-hover-color flex justify-between mb-4 w-full">
                             <span className="leading-none text-nowrap text-2xl">
-                                3. Rạp
+                                3. {t('filter.theater')}
                             </span>
                             <span className="text-hover-color">
                                 <Image width="30" height="30" src={`${process.env.PUBLIC_URL}/images/icons/icon-maps.svg`} className="max-h-10 fill-current"/>
@@ -84,7 +86,7 @@ const ShowTimeFilter: React.FC = () => {
                             <Dropdown
                                 options={theaterNames}
                                 onChange={(value) => value}
-                                defaultValue="Chọn rạp"
+                                defaultValue={t('filter.theaterFill')}
                                 renderOption={(name) => name}/>
                         </div>
                     </div>
