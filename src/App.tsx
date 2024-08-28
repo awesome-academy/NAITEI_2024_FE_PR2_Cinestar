@@ -4,7 +4,8 @@ import NotFound from './pages/NotFound';
 import Home from './pages/Home';
 import OnGoing from './pages/OnGoing';
 import UpComing from './pages/UpComing';
-import ShowTime from './pages/ShowTime'
+import ShowTime from './pages/ShowTime';
+import Discount from './pages/Discount';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/movie/showing/" element={<OnGoing />} />
         <Route path="/movie/upcoming/" element={<UpComing />} />
         <Route path="/showtimes/" element={<ShowTime />} />
+        <Route path="/discounts/" element={<Discount />} />
       </Routes>
     </Router>
   );
