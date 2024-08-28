@@ -8,7 +8,6 @@ import { useTranslation } from "react-i18next";
 import { fetchOnGoingMovies } from '../api/onGoing.api';
 
 const OnGoing: React.FC = () => {
-    const { t } = useTranslation();
     const [movies, setMovies] = useState<MovieProps['movie'][]>([]);
 
     useEffect(() => {
@@ -32,6 +31,8 @@ const OnGoing: React.FC = () => {
         slidesToScroll: 4,
     };
 
+    const { t } = useTranslation();
+
     return (
         <div className="container mx-auto flex flex-col items-center justify-center mb-32 mt-10">
             <div className="text-default-color uppercase text-4xl text-center font-bold mb-8">
@@ -46,7 +47,7 @@ const OnGoing: React.FC = () => {
                     ))}
                 </Slider>
             </div>
-            <Button href="#" className="border-[0.1rem] border-[#f3ea28] text-[#f3ea28] hover:hover-color-white btn--second before:bg-transparent px-20">
+            <Button href="/movie/showing/" className="border-[0.1rem] border-[#f3ea28] text-[#f3ea28] hover:hover-color-white btn--second before:bg-transparent px-20">
                 {t('button.see')}
             </Button>
         </div>

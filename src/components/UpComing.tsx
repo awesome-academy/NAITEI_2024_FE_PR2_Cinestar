@@ -7,7 +7,6 @@ import { useTranslation } from "react-i18next";
 import { fetchMovies } from '../api/movie.api';
 
 const UpComing: React.FC = () => {
-    const { t } = useTranslation();
     const [movies, setMovies] = useState<MovieProps['movie'][]>([]);
 
     useEffect(() => {
@@ -24,6 +23,8 @@ const UpComing: React.FC = () => {
 
         getMovies();
     }, []);
+
+    const { t } = useTranslation();
 
     const settings = {
         dots: true,
@@ -47,7 +48,7 @@ const UpComing: React.FC = () => {
                     ))}
                 </Slider>
             </div>
-            <Button href="#" className="border-[0.1rem] border-[#f3ea28] text-[#f3ea28] hover:hover-color-white btn--second before:bg-transparent px-20">
+            <Button href="/movie/upcoming/" className="border-[0.1rem] border-[#f3ea28] text-[#f3ea28] hover:hover-color-white btn--second before:bg-transparent px-20">
                 {t('button.see')}
             </Button>
         </div>

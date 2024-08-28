@@ -27,18 +27,18 @@ const Header = () => {
                         <Button href="#" icon={`${process.env.PUBLIC_URL}/images/icons/ic-ticket.svg`} className="hover:hover-color-white btn--pri">
                             {t('header.buyTicket')}
                         </Button>
-                        <Button href="#" icon={`${process.env.PUBLIC_URL}/images/icons/ic-cor.svg`} className="btn--second text-gray-100">
+                        <Button href="/popcorn-drink/" icon={`${process.env.PUBLIC_URL}/images/icons/ic-cor.svg`} className="btn--second text-gray-100">
                             {t('header.buyPopCorn')}
                         </Button>
                     </div>
 
-                    <div className="flex items-center gap-8">
+                    <div className="flex items-center lg:gap-8 md:gap-4 gap-1">
                         <div className="relative">
                             <div className="toggleBtn flex items-center justify-center border-2 border-white rounded-full cursor-pointer h-[2.4rem] w-[2.4rem] lg:hidden sm:hidden">
                                 <Image src={`${process.env.PUBLIC_URL}/images/icons/icon-search.svg`} className="text-transparent w-1/2" width="15" height="15"/>
                             </div>
 
-                            <div className="togglePanel">
+                            <div className="togglePanel hidden lg:flex">
                                 <div className="searchForm">
                                     <div>
                                         <div className="flex items-center relative">
@@ -57,16 +57,16 @@ const Header = () => {
                             </div>
                         </div>
 
-                        <div className="min-w-[120px] desktop">
-                            <div className="flex items-center relative gap-1 cursor-pointer top-[-0.2rem]">
-                                <div className="flex-shrink-0 h-6 relative w-6">
-                                    <img src={`${process.env.PUBLIC_URL}/images/icons/ic-header-auth.svg`} className="h-full object-cover w-full"></img>
+                        <div className="min-w-[30px] desktop">
+                            <div className="flex items-center relative gap-1 cursor-pointer top-[-0.2rem] justify-center">
+                                <div className="hidden lg:flex items-center gap-2 z-10">
+                                    <div className="flex-shrink-0 h-6 relative w-6">
+                                        <Image src={`${process.env.PUBLIC_URL}/images/icons/ic-header-auth.svg`} className="h-full object-cover w-full" alt="Icon" />
+                                    </div>
+                                    <span className="text-default-color hover:hover-color">{t('header.login')}</span>
                                 </div>
-                                <div className="flex items-center gap-2 z-10">
-                                    <a className="no-underline text-default-color hover:hover-color">
-                                        <i className="fa-regular fa-user lg:opacity-0 relative top-[-0.3rem]"></i>
-                                        {t('header.login')}
-                                    </a>
+                                <div className="lg:hidden flex items-center z-10 justify-center">
+                                    <i className="fa-regular fa-user text-default-color"></i>
                                 </div>
                             </div>
                         </div>
@@ -113,16 +113,15 @@ const Header = () => {
                         <div>
                         <span className="flex gap-2 text-default-color hover:hover-color">
                                 <i className="fa-sharp fa-solid fa-location-dot"></i>
-                                <span className="leading-none">{t('header.showtime')}</span>
+                                <a href="/showtimes/" className="leading-none">{t('header.showtime')}</a>
                             </span>
                         </div>
                     </div>
                     <div className="flex items-center gap-6 text-default-color">
-                        <a className="flex items-center gap-4 px-4 py-3 transition-all duration-300 ease-in-out whitespace-nowrap w-full hover:underline-position-under hover:hover-color" href="#">{t('nav.discount')}</a>
+                        <a className="flex items-center gap-4 px-4 py-3 transition-all duration-300 ease-in-out whitespace-nowrap w-full hover:underline-position-under hover:hover-color" href="/discounts/">{t('nav.discount')}</a>
                         <a className="flex items-center gap-4 px-4 py-3 transition-all duration-300 ease-in-out whitespace-nowrap w-full hover:underline-position-under hover:hover-color" href="#">{t('nav.rent')}</a>
-                        <a className="flex items-center gap-4 px-4 py-3 transition-all duration-300 ease-in-out whitespace-nowrap w-full hover:underline-position-under hover:hover-color" href="#">{t('nav.entertainment')}</a>
-                        <a className="flex items-center gap-4 px-4 py-3 transition-all duration-300 ease-in-out whitespace-nowrap w-full hover:underline-position-under hover:hover-color" href="#">{t('nav.aboutUs')}</a>
-                        <a className="flex items-center gap-4 px-4 py-3 transition-all duration-300 ease-in-out whitespace-nowrap w-full hover:underline-position-under hover:hover-color" href="#">{t('nav.contact')}</a>
+                        <a className="flex items-center gap-4 px-4 py-3 transition-all duration-300 ease-in-out whitespace-nowrap w-full hover:underline-position-under hover:hover-color" href="/cac-loai-hinh-giai-tri-khac/">{t('nav.entertainment')}</a>
+                        <a className="flex items-center gap-4 px-4 py-3 transition-all duration-300 ease-in-out whitespace-nowrap w-full hover:underline-position-under hover:hover-color" href="/about-us/">{t('nav.aboutUs')}</a>
                     </div>
                 </div>
             </div>

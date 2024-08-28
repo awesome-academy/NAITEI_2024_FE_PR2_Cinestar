@@ -31,7 +31,7 @@ const Footer = () => {
                                     <Button href="#" className="hover:hover-color-white btn--pri text-[#0f172a]">
                                         {t('header.buyTicket')}
                                     </Button>
-                                    <Button href="#" className="border-[0.1rem] border-[#f3ea28] text-[#f3ea28] hover:hover-color-white btn--second">
+                                    <Button href="/popcorn-drink/" className="border-[0.1rem] border-[#f3ea28] text-[#f3ea28] hover:hover-color-white btn--second">
                                         {t('header.buyPopCorn')}
                                     </Button>
                                 </div>
@@ -96,13 +96,13 @@ const Footer = () => {
                                     <div className="uppercase font-bold mb-4">{t('footer.account.title')}</div>
                                     <ul className="list-none flex flex-col gap-4">
                                         <li>
-                                            <a href="#" className="hover:hover-shine">{t('footer.account.acc1')}</a>
+                                            <a href="/login/" className="hover:hover-shine">{t('footer.account.acc1')}</a>
                                         </li>
                                         <li>
-                                            <a href="#" className="hover:hover-shine">{t('footer.account.acc2')}</a>
+                                            <a href="/login/" className="hover:hover-shine">{t('footer.account.acc2')}</a>
                                         </li>
                                         <li>
-                                            <a href="#" className="hover:hover-shine">{t('footer.account.acc3')}</a>
+                                            <a href="/discounts/" className="hover:hover-shine">{t('footer.account.acc3')}</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -113,7 +113,7 @@ const Footer = () => {
                                             <a href="#" className="hover:hover-shine">{t('footer.rent.rent1')}</a>
                                         </li>
                                         <li>
-                                            <a href="#" className="hover:hover-shine pr-4">{t('footer.rent.rent2')}</a>
+                                            <a href="/cac-loai-hinh-giai-tri-khac/" className="hover:hover-shine pr-4">{t('footer.rent.rent2')}</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -121,13 +121,13 @@ const Footer = () => {
                                     <div className="uppercase font-bold mb-4">{t('footer.show.title')}</div>
                                     <ul className="list-none flex flex-col gap-4">
                                         <li>
-                                            <a href="#" className="hover:hover-shine">{t('footer.show.show1')}</a>
+                                            <a href="/movie/showing/" className="hover:hover-shine">{t('footer.show.show1')}</a>
                                         </li>
                                         <li>
-                                            <a href="#" className="hover:hover-shine">{t('footer.show.show2')}</a>
+                                            <a href="/movie/upcoming/" className="hover:hover-shine">{t('footer.show.show2')}</a>
                                         </li>
                                         <li>
-                                            <a href="#" className="hover:hover-shine">{t('footer.show.show3')}</a>
+                                            <a href="/showtimes/" className="hover:hover-shine">{t('footer.show.show3')}</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -150,25 +150,25 @@ const Footer = () => {
                                 <div className="uppercase font-bold mb-4">{t('footer.service.title')}</div>
                                 <ul className="list-none flex flex-col gap-4">
                                     <li>
-                                        <a href="#" className="hover:hover-shine">{t('footer.service.dv1')}</a>
+                                        <a href="/restaurant/" className="hover:hover-shine">{t('footer.service.dv1')}</a>
                                     </li>
                                     <li>
-                                        <a href="#" className="hover:hover-shine">{t('footer.service.dv2')}</a>
+                                        <a href="/kidzone/" className="hover:hover-shine">{t('footer.service.dv2')}</a>
                                     </li>
                                     <li>
-                                        <a href="#" className="hover:hover-shine">{t('footer.service.dv3')}</a>
+                                        <a href="/bowling/" className="hover:hover-shine">{t('footer.service.dv3')}</a>
                                     </li>
                                     <li>
-                                        <a href="#" className="hover:hover-shine">{t('footer.service.dv4')}</a>
+                                        <a href="/billiard/" className="hover:hover-shine">{t('footer.service.dv4')}</a>
                                     </li>
                                     <li>
-                                        <a href="#" className="hover:hover-shine">{t('footer.service.dv5')}</a>
+                                        <a href="/gym/" className="hover:hover-shine">{t('footer.service.dv5')}</a>
                                     </li>
                                     <li>
-                                        <a href="#" className="hover:hover-shine">{t('footer.service.dv6')}</a>
+                                        <a href="/opera/" className="hover:hover-shine">{t('footer.service.dv6')}</a>
                                     </li>
                                     <li>
-                                        <a href="#" className="hover:hover-shine">{t('footer.service.dv7')}</a>
+                                        <a href="/coffee/" className="hover:hover-shine">{t('footer.service.dv7')}</a>
                                     </li>
                                 </ul>
                             </div>
@@ -176,7 +176,7 @@ const Footer = () => {
                                 <div className="uppercase font-bold mb-4">{t('footer.loca.title')}</div>
                                 <ul className="list-none flex flex-col gap-4">
                                     <li>
-                                        <a href="#" className="hover:hover-shine">{t('footer.loca.locaAll')}</a>
+                                        <a href="/about-us/" className="hover:hover-shine">{t('footer.loca.locaAll')}</a>
                                     </li>
                                     <li>
                                         <a href="#" className="hover:hover-shine">{t('footer.loca.loca1')}</a>
