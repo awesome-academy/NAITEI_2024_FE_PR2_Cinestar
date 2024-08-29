@@ -7,8 +7,6 @@ import { useTranslation } from "react-i18next";
 import { discountTag } from "../contracts/DiscountTag.contract";
 
 const DiscountSlider: React.FC = () => {
-    const { t } = useTranslation();
-
     const settings = {
         dots: true,
         infinite: true,
@@ -16,6 +14,8 @@ const DiscountSlider: React.FC = () => {
         slidesToShow: 3,
         slidesToScroll: 3,
     };
+
+    const { t } = useTranslation();
     
     return (
         <div className="container mx-auto mb-32 mt-10 relative">
@@ -32,7 +32,7 @@ const DiscountSlider: React.FC = () => {
                 </Slider>
             </div>
             <div className="flex justify-center">
-                <Button href="#" className="hover:hover-color-white btn--pri w-fit">
+                <Button href="/discounts/" className="hover:hover-color-white btn--pri w-fit">
                     {t('button.all')}
                 </Button>
             </div>

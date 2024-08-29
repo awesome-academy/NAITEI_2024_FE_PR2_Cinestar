@@ -8,7 +8,6 @@ import { useTranslation } from "react-i18next";
 import { fetchOnGoingMovies } from '../api/onGoing.api';
 
 function OnGoing() {
-    const { t } = useTranslation();
     const [movies, setMovies] = useState<MovieProps['movie'][]>([]);
 
     useEffect(() => {
@@ -23,6 +22,8 @@ function OnGoing() {
 
         getOnGoingMovies();
     }, []);
+
+    const { t } = useTranslation();
 
     return (
         <div className="App bg-[#0f172a]">

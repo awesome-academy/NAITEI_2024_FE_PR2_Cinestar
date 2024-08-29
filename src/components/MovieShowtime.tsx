@@ -12,17 +12,9 @@ const MovieShowtime: React.FC<MovieShowtimeProps> = ({ image, title, tags, ratin
     const { t } = useTranslation();
 
     const getRatingContent = (rating: string) => {
-        switch (rating) {
-            case 'T13':
-                return t('rating.t13');
-            case 'T16':
-                return t('rating.t16');
-            case 'T18':
-                return t('rating.t18');
-            case 'K':
-                return t('rating.k')
-        }
-    };
+        const lowercaseRating = rating.charAt(0).toLowerCase() + rating.slice(1);
+        return t(`rating.${lowercaseRating}`);
+    };        
 
     const generateMovieUrl = (title: string) => {
         let normalizedTitle = diacritics.remove(title);
